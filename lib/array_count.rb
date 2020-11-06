@@ -3,6 +3,7 @@ def count_strings(array)
   array.count do
     |potential_string|
     potential_string == String 
+    p potential_string
   end
 end
 
