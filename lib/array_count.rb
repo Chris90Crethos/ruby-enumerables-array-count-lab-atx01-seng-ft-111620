@@ -6,6 +6,9 @@ def count_strings(array)
   end
 end
 
-def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
+  
+def count_empty_strings(array)
+  array.count do |empty_string|
+    empty_string.class == String 
 end
